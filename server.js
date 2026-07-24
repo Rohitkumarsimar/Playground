@@ -1,4 +1,5 @@
 import express from 'express'
+import jsonwebtoken from 'jsonwebtoken'
 
 const app = express()
 
@@ -12,8 +13,9 @@ function logger(req, res, next){
 
 
 app.use('/',logger,(req, res)=>{
-    res.json({message: "hello"})
 })
+
+app.use('/register',)
 
 
 app.listen(3000, ()=>{
