@@ -10,7 +10,9 @@ function logger(req, res, next){
 }
 
 
-
+// function authMiddleware(req, res, next){
+//     const 
+// }
 
 app.use('/',logger,(req, res)=>{
 })

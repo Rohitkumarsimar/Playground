@@ -54,3 +54,4 @@ console.log(truck)
 
 const verna = new car("Hyundai Verna","New model","Matte black","Sun roof variant")
 console.log(verna)
+
