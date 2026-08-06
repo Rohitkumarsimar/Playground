@@ -55,3 +55,11 @@ console.log(truck)
 const verna = new car("Hyundai Verna","New model","Matte black","Sun roof variant")
 console.log(verna)
 
+//async await fetch
+
+async function fetchData(){
+    const result = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+    console.log(result)
+}
+
+fetchData()
