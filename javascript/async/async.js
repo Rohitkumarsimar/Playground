@@ -68,3 +68,23 @@ console.log("timeout")
 },0);
 
 Promise.resolve().then(()=>setTimeout(()=>{console.log("promise")},0));
+
+for(var i = 0; i<3; i++){
+    setTimeout(() => {
+        console.log(i)
+    }, 500);
+}
+
+
+let j = 0;
+ while(j<3){
+    var x = 10;
+    let y = 20;
+    console.log(i)
+    j++
+}
+// console.log(y)
+setTimeout(() => {
+    
+    console.log("value of x: ",x);
+}, 2000);
